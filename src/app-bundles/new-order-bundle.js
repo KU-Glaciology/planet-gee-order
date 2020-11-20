@@ -78,12 +78,13 @@ const bundle = {
   doOrderSubmit: (payload) => ({ dispatch, store }) => {
     const apiKey = store.selectAuthPlanetApiKey();
     console.log("posting", payload);
-    fetch("https://api.planet.com/compute/ops/orders/v2", {
+    fetch("https://glacier-proxy.herokuapp.com/", {
       method: "POST",
       mode: "cors",
       headers: new Headers({
         "content-type": "application/json",
         Authorization: `Basic ${btoa(`${apiKey}:`)}`,
+        "Target-Endpoint": "https://api.planet.com/compute/ops/orders/v2",
       }),
       body: JSON.stringify(payload),
     })

@@ -52,11 +52,12 @@ const bundle = {
     });
     const apiKey = store.selectAuthPlanetApiKey();
     if (apiKey) {
-      fetch("https://api.planet.com/compute/ops/orders/v2", {
+      fetch("https://glacier-proxy.herokuapp.com/", {
         method: "GET",
         mode: "cors",
         headers: {
           Authorization: `Basic ${btoa(`${apiKey}:`)}`,
+          "Target-Endpoint:" "https://api.planet.com/compute/ops/orders/v2"
         },
       })
         .then((response) => {
