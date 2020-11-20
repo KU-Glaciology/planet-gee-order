@@ -84,7 +84,7 @@ const bundle = {
       headers: new Headers({
         "content-type": "application/json",
         Authorization: `Basic ${btoa(`${apiKey}:`)}`,
-        "Target-Endpoint": "https://api.planet.com/compute/ops/orders/v2",
+        "Target-URL": "https://api.planet.com/compute/ops/orders/v2",
       }),
       body: JSON.stringify(payload),
     })
