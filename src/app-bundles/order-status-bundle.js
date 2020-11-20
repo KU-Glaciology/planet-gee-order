@@ -57,7 +57,7 @@ const bundle = {
         mode: "cors",
         headers: {
           Authorization: `Basic ${btoa(`${apiKey}:`)}`,
-          "Target-Endpoint:" "https://api.planet.com/compute/ops/orders/v2"
+          "Target-Endpoint": "https://api.planet.com/compute/ops/orders/v2",
         },
       })
         .then((response) => {
