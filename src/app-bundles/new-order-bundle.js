@@ -79,6 +79,7 @@ const bundle = {
     const apiKey = store.selectAuthPlanetApiKey();
     console.log("posting", payload);
     fetch("https://glacier-proxy.herokuapp.com/", {
+      // fetch("http://localhost:8010", {
       method: "POST",
       mode: "cors",
       headers: new Headers({
@@ -93,7 +94,7 @@ const bundle = {
         return response.json();
       })
       .then((data) => {
-        console.log("data: ", data);
+        store.doModalClose();
         store.doStatusFetch();
       });
   },
