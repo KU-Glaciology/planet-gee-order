@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/planet-gee-order/static/css/main.4495bc31.chunk.css",
+    "main.js": "/planet-gee-order/static/js/main.4e73e0ba.chunk.js",
+    "main.js.map": "/planet-gee-order/static/js/main.4e73e0ba.chunk.js.map",
+    "runtime-main.js": "/planet-gee-order/static/js/runtime-main.8ac35a95.js",
+    "runtime-main.js.map": "/planet-gee-order/static/js/runtime-main.8ac35a95.js.map",
+    "static/js/2.dd9a4762.chunk.js": "/planet-gee-order/static/js/2.dd9a4762.chunk.js",
+    "static/js/2.dd9a4762.chunk.js.map": "/planet-gee-order/static/js/2.dd9a4762.chunk.js.map",
+    "index.html": "/planet-gee-order/index.html",
+    "static/css/main.4495bc31.chunk.css.map": "/planet-gee-order/static/css/main.4495bc31.chunk.css.map",
+    "static/js/2.dd9a4762.chunk.js.LICENSE.txt": "/planet-gee-order/static/js/2.dd9a4762.chunk.js.LICENSE.txt",
+    "static/media/materialdesignicons.min.css": "/planet-gee-order/static/media/materialdesignicons-webfont.d06df622.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ac35a95.js",
+    "static/js/2.dd9a4762.chunk.js",
+    "static/css/main.4495bc31.chunk.css",
+    "static/js/main.4e73e0ba.chunk.js"
+  ]
+}
